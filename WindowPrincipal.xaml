@@ -1,0 +1,20 @@
+﻿<Window x:Class="sing_up.WindowPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sing_up"
+        mc:Ignorable="d"
+        Title="WindowPrincipal" Height="450" Width="500">
+    <Grid >
+        <Grid.Background>
+                <ImageBrush ImageSource="imagenes/goty1.jpg"
+               Stretch="Fill" 
+               Opacity="0.9"/>
+           </Grid.Background>
+        <Label x:Name="lblBienvenido"
+               Content="Bienvenido a mi Sistema"
+               Foreground="GhostWhite"
+               HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
